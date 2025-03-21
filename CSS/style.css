@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffffff, #ffffff);
+}
+
+header {
+    background-image: url("image/ha.jpg");
+    color: #ffffff;
+    padding: 6rem;
+    text-align: center;
+    text-align:left;
+}
+
+header nav {
+    margin-top: 15px;
+}
+
+header nav button {
+    background-color: #11034e;
+    color: #ffffff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+header nav button:hover {
+    background-color: #504d4d;
+}
+
+.hero {
+    background-image: url("image/ha1.jpg");
+    color: #ffffffe8;
+    padding: 3rem;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.featured-products {
+    padding: 4rem;
+    background-image: url("image/imA.avif");
+    color: #00000038;
+    padding: 5rem;
+    text-align: center;
+}
+
+.products-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #c0b6ee;
+    border: 7px solid #000000;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    width: 250px;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 100%;
+}
+
+.newsletter {
+    background: linear-gradient(to right, #0c0c0c, #edaff3);
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.newsletter form {
+    margin-top: 1rem;
+}
+
+.newsletter input {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.newsletter button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: linear-gradient(to right, #172436, #c1bdc2);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
